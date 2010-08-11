@@ -1,0 +1,6 @@
+[submodule "Vendor/MGSPlitViewController"]
+	path = Vendor/MGSPlitViewController
+	url = http://github.com/mattgemmell/MGSplitViewController.git
+[submodule "Vendor/MGSplitViewController"]
+	path = Vendor/MGSplitViewController
+	url = http://github.com/mattgemmell/MGSplitViewController.git

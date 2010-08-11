@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050CEDAD12133B0A00CCAE90 /* MGSplitCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 050CEDA612133B0A00CCAE90 /* MGSplitCornersView.m */; };
+		050CEDAE12133B0A00CCAE90 /* MGSplitDividerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 050CEDA812133B0A00CCAE90 /* MGSplitDividerView.m */; };
+		050CEDB012133B0A00CCAE90 /* MGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050CEDAC12133B0A00CCAE90 /* MGSplitViewController.m */; };
+		050CEDC612133C4A00CCAE90 /* OVFileListMasterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 050CEDC412133C4A00CCAE90 /* OVFileListMasterVC.m */; };
+		050CEDC712133C4A00CCAE90 /* OVFileListMasterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050CEDC512133C4A00CCAE90 /* OVFileListMasterVC.xib */; };
+		050CEDCB12133C6B00CCAE90 /* OVMovieDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 050CEDC912133C6B00CCAE90 /* OVMovieDetailVC.m */; };
+		050CEDCC12133C6B00CCAE90 /* OVMovieDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050CEDCA12133C6B00CCAE90 /* OVMovieDetailVC.xib */; };
+		050CEDE512133DE600CCAE90 /* OVRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 050CEDE412133DE600CCAE90 /* OVRootVC.m */; };
+		050CEE171213430F00CCAE90 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050CEE161213430F00CCAE90 /* MediaPlayer.framework */; };
+		050CEE2D121343B900CCAE90 /* Drama Prairie Dog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 050CEE2C121343B900CCAE90 /* Drama Prairie Dog.mp4 */; };
+		1D3623260D0F684500981E51 /* OverViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* OverViewAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		050CEDA512133B0A00CCAE90 /* MGSplitCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSplitCornersView.h; path = Vendor/MGSplitViewController/Classes/MGSplitCornersView.h; sourceTree = "<group>"; };
+		050CEDA612133B0A00CCAE90 /* MGSplitCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSplitCornersView.m; path = Vendor/MGSplitViewController/Classes/MGSplitCornersView.m; sourceTree = "<group>"; };
+		050CEDA712133B0A00CCAE90 /* MGSplitDividerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSplitDividerView.h; path = Vendor/MGSplitViewController/Classes/MGSplitDividerView.h; sourceTree = "<group>"; };
+		050CEDA812133B0A00CCAE90 /* MGSplitDividerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSplitDividerView.m; path = Vendor/MGSplitViewController/Classes/MGSplitDividerView.m; sourceTree = "<group>"; };
+		050CEDAB12133B0A00CCAE90 /* MGSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSplitViewController.h; path = Vendor/MGSplitViewController/Classes/MGSplitViewController.h; sourceTree = "<group>"; };
+		050CEDAC12133B0A00CCAE90 /* MGSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSplitViewController.m; path = Vendor/MGSplitViewController/Classes/MGSplitViewController.m; sourceTree = "<group>"; };
+		050CEDC312133C4A00CCAE90 /* OVFileListMasterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OVFileListMasterVC.h; sourceTree = "<group>"; };
+		050CEDC412133C4A00CCAE90 /* OVFileListMasterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OVFileListMasterVC.m; sourceTree = "<group>"; };
+		050CEDC512133C4A00CCAE90 /* OVFileListMasterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OVFileListMasterVC.xib; sourceTree = "<group>"; };
+		050CEDC812133C6B00CCAE90 /* OVMovieDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OVMovieDetailVC.h; sourceTree = "<group>"; };
+		050CEDC912133C6B00CCAE90 /* OVMovieDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OVMovieDetailVC.m; sourceTree = "<group>"; };
+		050CEDCA12133C6B00CCAE90 /* OVMovieDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OVMovieDetailVC.xib; sourceTree = "<group>"; };
+		050CEDE312133DE600CCAE90 /* OVRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OVRootVC.h; sourceTree = "<group>"; };
+		050CEDE412133DE600CCAE90 /* OVRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OVRootVC.m; sourceTree = "<group>"; };
+		050CEE161213430F00CCAE90 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		050CEE2C121343B900CCAE90 /* Drama Prairie Dog.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Drama Prairie Dog.mp4"; path = "../../Movies/Drama Prairie Dog.mp4"; sourceTree = SOURCE_ROOT; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* OverViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverViewAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* OverViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverViewAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* OverView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* OverView_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverView_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* OverView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OverView-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				050CEE171213430F00CCAE90 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050CED9E12133B0200CCAE90 /* MGSplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				050CEDA512133B0A00CCAE90 /* MGSplitCornersView.h */,
+				050CEDA612133B0A00CCAE90 /* MGSplitCornersView.m */,
+				050CEDA712133B0A00CCAE90 /* MGSplitDividerView.h */,
+				050CEDA812133B0A00CCAE90 /* MGSplitDividerView.m */,
+				050CEDAB12133B0A00CCAE90 /* MGSplitViewController.h */,
+				050CEDAC12133B0A00CCAE90 /* MGSplitViewController.m */,
+			);
+			name = MGSplitViewController;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* OverViewAppDelegate.h */,
+				1D3623250D0F684500981E51 /* OverViewAppDelegate.m */,
+				050CEDC312133C4A00CCAE90 /* OVFileListMasterVC.h */,
+				050CEDC412133C4A00CCAE90 /* OVFileListMasterVC.m */,
+				050CEDC512133C4A00CCAE90 /* OVFileListMasterVC.xib */,
+				050CEDC812133C6B00CCAE90 /* OVMovieDetailVC.h */,
+				050CEDC912133C6B00CCAE90 /* OVMovieDetailVC.m */,
+				050CEDCA12133C6B00CCAE90 /* OVMovieDetailVC.xib */,
+				050CEDE312133DE600CCAE90 /* OVRootVC.h */,
+				050CEDE412133DE600CCAE90 /* OVRootVC.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* OverView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* OverView_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				050CEE2C121343B900CCAE90 /* Drama Prairie Dog.mp4 */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* OverView-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				050CED9E12133B0200CCAE90 /* MGSplitViewController */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				050CEE161213430F00CCAE90 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* OverView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "OverView" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverView;
+			productName = OverView;
+			productReference = 1D6058910D05DD3D006BFB54 /* OverView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OverView" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* OverView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				050CEDC712133C4A00CCAE90 /* OVFileListMasterVC.xib in Resources */,
+				050CEDCC12133C6B00CCAE90 /* OVMovieDetailVC.xib in Resources */,
+				050CEE2D121343B900CCAE90 /* Drama Prairie Dog.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* OverViewAppDelegate.m in Sources */,
+				050CEDAD12133B0A00CCAE90 /* MGSplitCornersView.m in Sources */,
+				050CEDAE12133B0A00CCAE90 /* MGSplitDividerView.m in Sources */,
+				050CEDB012133B0A00CCAE90 /* MGSplitViewController.m in Sources */,
+				050CEDC612133C4A00CCAE90 /* OVFileListMasterVC.m in Sources */,
+				050CEDCB12133C6B00CCAE90 /* OVMovieDetailVC.m in Sources */,
+				050CEDE512133DE600CCAE90 /* OVRootVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OverView_Prefix.pch;
+				INFOPLIST_FILE = "OverView-Info.plist";
+				PRODUCT_NAME = OverView;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OverView_Prefix.pch;
+				INFOPLIST_FILE = "OverView-Info.plist";
+				PRODUCT_NAME = OverView;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "OverView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OverView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
