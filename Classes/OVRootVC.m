@@ -32,18 +32,25 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   
-	self.showsMasterInPortrait = YES;
+  self.showsMasterInPortrait = YES;
 }
 
 
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-  if(UIInterfaceOrientationIsPortrait(interfaceOrientation)) {
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)o {
+  // Always keep master next to the home button
+  if(o == UIInterfaceOrientationPortrait) {
   	self.vertical = NO;
     self.masterBeforeDetail = NO;
-  } else {
+  } else if(o == UIInterfaceOrientationPortraitUpsideDown) {
+  	self.vertical = NO;
+    self.masterBeforeDetail = YES;
+  } else if(o == UIInterfaceOrientationLandscapeLeft){
   	self.vertical = YES;
     self.masterBeforeDetail = YES;
+  } else if(o == UIInterfaceOrientationLandscapeRight) {
+  	self.vertical = YES;
+    self.masterBeforeDetail = NO;  
   }
   return YES;
 }
