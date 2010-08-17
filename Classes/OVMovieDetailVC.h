@@ -13,5 +13,6 @@
 	IBOutlet UIView *moviePlayerContainer;
   MPMoviePlayerController *moviePlayer;
 }
-
++(id)sharedDetailVC;
+-(void)showMovieAtURL:(NSURL*)url;
 @end

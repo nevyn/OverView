@@ -8,9 +8,19 @@
 
 #import "OVMovieDetailVC.h"
 
+@interface OVMovieDetailVC ()
+@property(retain) MPMoviePlayerController *moviePlayer;
+@end
+
+static OVMovieDetailVC *singleton;
 
 @implementation OVMovieDetailVC
+@synthesize moviePlayer;
 
++(id)sharedDetailVC;
+{
+	return singleton;
+}
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
  - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -25,13 +35,17 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
   [super viewDidLoad];
-  moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Drama Prairie Dog" ofType:@"mp4"]]];
+  singleton = self;
+}
+
+- (void)showMovieAtURL:(NSURL*)url;
+{
+  self.moviePlayer = [[[MPMoviePlayerController alloc] initWithContentURL:url] autorelease];
   [moviePlayerContainer.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
   moviePlayer.view.frame = CGRectMake(0, 0, moviePlayerContainer.frame.size.width, moviePlayerContainer.frame.size.height);
   moviePlayer.view.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
   [moviePlayerContainer addSubview:moviePlayer.view];
 }
-
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

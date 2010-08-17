@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OVFileListVC.h"
 
-
-@interface OVFileListMasterVC : UIViewController {
-
+@interface OVFileListMasterVC : OVFileListVC {
 }
 
 @end
